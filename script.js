@@ -1,8 +1,5 @@
-let now = new Date();
+let num = 0;
 
-console.log(now);
-
-// let specificDate = new Date("2025-01-01");
-let specificDate = new Date(2025, 0, 1);
-
-console.log(specificDate);
+while (num < 5) {
+  console.log(num);
+}
